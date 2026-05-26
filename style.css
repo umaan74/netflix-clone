@@ -1,0 +1,197 @@
+.back {
+  /* background-image: url(netflix\ background.jpg); */
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  z-index: -50;
+  filter: opacity(0.25);
+  position: absolute;
+}
+body {
+  background-color: black;
+                                                                     font-family: "Roboto", sans-serif;
+
+                                                
+}
+.net-logo img {
+  width: 150px;
+  /* height: 40px;   */
+  color: red;
+  object-fit: contain;
+  padding-top: 10px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 100px 0px 100px;
+}
+.eng-lang {
+  display: inline-block;
+}
+.sign-in {
+  display: inline-block;
+}
+.buttons button,
+select {
+  height: 25px;
+}
+.lang {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 700;
+  padding: 5px 0px;
+}
+i {
+  color: white;
+  font-size: 12px;
+}
+.eng-lang {
+  border: 0.5px solid rgb(157, 157, 157);
+  padding: 0px 15px 0px 10px;
+  border-radius: 3px;
+  margin-right: 8px;
+}
+option {
+  color: black;
+}
+select.lang {
+  font-weight: bold;
+}
+.sign-in button {
+  font-weight: 600;
+  background-color: rgb(222, 26, 26);
+  color: white;
+  border-radius: 4px;
+  border: none;
+}
+.input input {
+  border: 0.5px solid rgb(157, 157, 157);
+  padding: 0px 15px 0px 10px;
+  border-radius: 3px;
+  margin-right: 8px;
+  padding: 14px 150px 14px 12px;
+  background-color: transparent;
+  filter: blur(1);
+
+  /* font-size: 40px; */
+}
+.input ::placeholder{
+    color:rgb(202, 202, 202) ;
+
+}
+.centre {
+  position: absolute;
+  color: white;
+  position: absolute;
+
+  top: 50%;
+  display: flex;
+  /* justify-content:; */
+  flex-direction: column;
+  align-items: center;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+.centre h1 {
+  font-size: 56px;
+  margin: 0px;
+  font-weight: 900px;
+}
+.centre p {
+    font-weight: 400px;
+  font-size: 16px;
+  margin:8px ;
+  margin-bottom: 20px;
+}
+.centre h3 {
+    margin: 13px;
+  font-size: 20px;
+}
+.input button{
+    background-color:rgb(222, 26, 26) ;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 4px;
+    padding: 13px 25px;
+}
+.input{
+    display: flex;
+
+}
+.trend h2{
+    color:white;
+    margin-top: 50px;
+}
+.blank{
+    height: 90vh;
+}
+main{
+
+    margin-left:150px ;
+    margin-right: 150px;
+    color: white;
+}
+
+.movies{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* gap: x; */
+}
+.item{
+    height: 252px;
+    width: 180px;
+    /* border: 5px solid white; */
+    
+}
+.item img{
+    border-radius: 10px;    
+    object-fit: contain;
+    height: 250px;
+}
+.item img:hover{
+    transform: scale(1.09);
+}
+.reason h2{
+    color: white;
+
+    margin-top: 50px;
+}
+.reasons{
+    display: flex;
+    justify-content: space-between;
+}
+.reason-item{
+    height: 280px;
+    width: 280px;
+    /* border: 2px solid white; */
+    border-radius: 15px; 
+      background: linear-gradient(
+        to bottom right,
+        #192247,
+        #210e17
+    );
+}
+.reason-item h3{
+    padding-left:  20px;
+    font-size: 24px;
+margin-bottom: 0px;
+}
+.reason-item p{
+    padding: 10px 20px;
+    color:rgb(202, 202, 202)
+}
+.reason-item i{
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
